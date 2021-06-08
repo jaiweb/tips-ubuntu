@@ -31,7 +31,12 @@ Run
 sudo apt-get purge nvidia-*
 ```
 ```sh
-sudo add-apt-repository ppa:graphics-drivers/ppa and then sudo apt-get update .
+sudo add-apt-repository ppa:graphics-drivers/ppa
+```
+and then 
+
+```sh
+sudo apt-get update .
 ```
 ```sh
 sudo apt-get install nvidia-driver-430
